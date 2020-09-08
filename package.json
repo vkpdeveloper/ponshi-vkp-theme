@@ -1,0 +1,32 @@
+{
+  "name": "vkp-ponshi-theme",
+  "displayName": "Ponshi Theme",
+  "description": "Nice theme for vs code by vkpdeveloper",
+  "version": "1.0.0",
+  "author": {
+    "email": "vaibhavpathak9984@gmail.com",
+    "name": "Vaibhav Pathak",
+    "url": "https://github.com/vkpdeveloper"
+  },
+  "repository": {
+    "directory": "./themes/Ponshi Theme-color-theme.json",
+    "type": "theme",
+    "url": "https://github.com/vkpdeveloper/ponshi-vkp-theme"
+  },
+  "publisher": "vkpdeveloper",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ponshi Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ponshi Theme-color-theme.json"
+      }
+    ]
+  }
+}
